@@ -1,0 +1,15 @@
+{% extends "surveys/survey_base.html" %}
+	{% block content %}
+		<form action="mentor_calls_submit" method="post" accept-charset="utf-8">
+			{% csrf_token %}
+			{% for field in form %}
+				<p>
+				{{ field.label }}
+				</p>
+				<div>
+					{{ field }}
+				</div>
+			{% endfor %}
+		<input type="submit" value="Submit">
+		</form>
+	{% endblock content %}
