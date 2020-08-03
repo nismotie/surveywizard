@@ -20,12 +20,12 @@
 	</head>
 	<body>
 		<div class="container">
-		{% if title %}
-			<h1>{{ title }} - SurveyWizard</h1>
-		{% else %}
-			<h1>Welcome to SurveyWizard</h1>	
-		{% endif %}
-			{% block content %}{% endblock content %}
+			{% if title %}
+				<h1>{{ title }} - SurveyWizard</h1>
+			{% else %}
+				<h1>Welcome to SurveyWizard</h1>	
+			{% endif %}
+				{% block content %}{% endblock content %}
 		</div>
 
 		<!-- Optional JavaScript -->

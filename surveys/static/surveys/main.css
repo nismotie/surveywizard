@@ -1,12 +1,16 @@
-input, label {
+input {
+	display: block;
+}
+label {
 	display: block;
 }
 
-.h1 {
+h1 {
 	font-family: 'Work Sans', sans-serif;
 }
 
 .field {
 	display: block;
 	font-family: 'Work Sans', sans-serif;
+	background-color:#ebf7f1; 
 }

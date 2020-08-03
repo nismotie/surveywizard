@@ -14,16 +14,16 @@ class MentorCall(forms.Form):
             label = 'Mentors Name',
             widget = forms.TextInput
             )
-    learners_email = forms.EmailField(
+    mentors_email = forms.EmailField(
             label='Mentor\'s Email',
             widget = forms.EmailInput
             )
     subject = forms.CharField(
-            label='What did you want to discuss in this call',
+            label='What did you want to discuss in this call?',
             widget=forms.Textarea
             )
     response = forms.CharField(
-            label='What did you want to discuss in this call',
+            label='Mentor\'s Response',
             widget=forms.Textarea
             )
 
