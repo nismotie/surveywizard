@@ -1,3 +1,12 @@
 input, label {
-	display: block
+	display: block;
+}
+
+.h1 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.field {
+	display: block;
+	font-family: 'Work Sans', sans-serif;
 }
